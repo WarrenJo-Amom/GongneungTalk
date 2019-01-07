@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#ffc107</color>
+    <color name="colorPrimaryDark">#ffb300</color>-->
+    <color name="colorPrimary">#ffc107</color>
+    <color name="colorPrimaryDark">#ffb300</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorPrimaryGray">#ffffff</color>
+    <color name="colorPrimaryDarkGray">#cccccc</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#0000ff</color>
+    <color name="gotospot">#EEEEEE</color>
+
+    <color name="optionMenu">#5A595B</color>
+
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".activity.RegisterActivity">
+
+    <EditText
+        android:id="@+id/editText_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="이메일"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editText_emailConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="이메일 확인"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editText_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="비밀번호"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editText_passwordConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="비밀번호 확인"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editText_nick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="닉네임"
+        android:inputType="textPersonName" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup_identity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButton_resident"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="주민 : 공릉동에, 또는 공릉동 근처에 살고 있습니다." />
+
+        <RadioButton
+            android:id="@+id/radioButton_merchant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="상인 : 공릉동에서 음식점, 상점 등을 운영합니다." />
+
+        <RadioButton
+            android:id="@+id/radioButton_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="대학생 : 공릉동에 있는 대학교에 다닙니다." />
+
+        <RadioButton
+            android:id="@+id/radioButton_worker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="직장인 : 공릉동에서 일합니다." />
+
+        <RadioButton
+            android:id="@+id/radioButton_visitor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="방문자 : 공릉동에 놀러 왔습니다." />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="회원가입" />
+
+    <TextView
+        android:id="@+id/button_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="로그인" />
+
+</LinearLayout>

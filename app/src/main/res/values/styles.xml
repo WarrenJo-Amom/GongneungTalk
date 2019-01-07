@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- 앱 런칭 시 뜨는 하얀 화면 없애기 -->
+        <!--<item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>-->
+        <!--클릭 효과-->
+        <item name="android:colorControlHighlight">@color/colorPrimary</item>
+    </style>
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/white</item>
+        <!-- 앱 런칭 시 뜨는 하얀 화면 없애기 -->
+        <!--<item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>-->
+        <!--클릭 효과-->
+        <item name="android:colorControlHighlight">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppThemeGray" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryGray</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkGray</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- 앱 런칭 시 뜨는 하얀 화면 없애기 -->
+        <!--<item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>-->
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:actionOverflowButtonStyle">@style/AppTheme.OverFlow</item>
+
+        <!--클릭 효과-->
+        <item name="android:colorControlHighlight">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.OverFlow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/optionMenu</item>
+
+        <!--클릭 효과-->
+        <item name="android:colorControlHighlight">@color/colorPrimary</item>
+    </style>
+
+
+    <!-- 액션바 없는 액티비티 테마 -->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/colorPrimaryDark</item>
+
+        <!--클릭 효과-->
+        <item name="android:colorControlHighlight">@color/colorPrimary</item>
+    </style>
+    <style name="AppTheme.NoActionBar2">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="colorAccent">@color/white</item>
+        <item name="android:windowBackground">@color/colorPrimaryDarkGray</item>
+
+        <!--클릭 효과-->
+        <item name="android:colorControlHighlight">@color/colorPrimary</item>
+    </style>
+
+    <!-- 배경화면 색상 변경 테마 -->
+    <!--<style name="AppTheme.YellowWindow">
+        <item name="android:windowBackground">@color/colorPrimaryDark</item>
+    </style>-->
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

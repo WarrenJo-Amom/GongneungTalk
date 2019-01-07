@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.maeultalk.gongneungtalk.activity.AddContentActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:title="add_spot"
+        android:orderInCategory="100"
+        android:icon="@drawable/add_spot_white2"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">공릉톡</string>
+    <string name="action_settings">로그아웃</string>
+    <string name="title_activity_spot2">SpotActivity2</string>
+    <string name="tab_text_1">타임라인</string>
+    <string name="tab_text_2">스토어</string>
+    <string name="tab_text_3">정보</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>
